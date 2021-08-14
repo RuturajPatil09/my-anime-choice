@@ -70,11 +70,12 @@ header .social_icons {
     height:100px;
 }
 .logo {
-    width: 1500px;
-    height: 400px;
+    width: 1480px;
+    height: 300px;
     margin-left:0px;
     background:url(animetheme.jpeg);
     background-repeat: 2;
+    border-radius: 5px;
 }
 nav {
     overflow:hidden;
