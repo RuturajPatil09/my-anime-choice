@@ -1,0 +1,253 @@
+/* base common styles */
+
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+
+mark, rp, rt, ruby, summary, time {display:inline-block;}
+
+* {
+    margin:5px;
+    padding:5px;
+}
+img {
+    border-width:10;
+}
+body {
+    color:#ee0505;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:1.00em;
+    border: #eafa05;
+    border-radius: 20px;
+}
+a {
+  color:#c46501;
+    text-decoration:underline;
+}
+a:hover {
+    text-decoration:none;
+}
+
+
+/*header*/
+header {
+    background-color:#07f7d7;
+}
+header .header {
+    overflow:hidden;
+    position:relative;
+    width:560px;
+    height:50px;
+    margin:0 auto;
+}
+header .search {
+    float:right;
+    margin-top:0px;
+    width:350px;
+}
+header .search input[type=text] {
+    background-color:#060707;
+    border:0 solid #f5a104;
+    color:rgb(241, 234, 234);
+    font-size:15px;
+    height:30px;
+    margin-left:20px;
+    width:200px;
+    padding:1px 0 0 3px;
+}
+header .search input[type=submit] {
+    height:30px;
+    width:70px;
+    font-size:1.09em;
+    border-width:0;
+}
+header .social_icons {
+    float:right;
+    margin-right:5px;
+    margin-top:5px;
+}
+.logo {
+    position:relative;
+    width:5000px;
+    height:100px;
+}
+.logo {
+    width: 1500px;
+    height: 400px;
+    margin-left:0px;
+    background:url(animetheme.jpeg);
+    background-repeat: 2;
+}
+nav {
+    overflow:hidden;
+    position:relative;
+    width:800px;
+    background:url(aot\ background.jpg) no-repeat scroll left top transparent;
+    margin:10px auto;
+    padding:10px;
+}
+nav ul {
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+}
+nav ul li {
+    float:left;
+    font-size:1.5em;
+    line-height:normal;
+    margin-left:-2px;
+    overflow:hidden;
+    padding:0;
+}
+nav ul li a {
+    color:rgb(250, 3, 3);
+    display:block;
+    font-family:Tahoma,Arial,Helvetica,serif;
+    font-weight:400;
+    text-decoration:none;
+    text-transform:none;
+    padding:3px 24px 5px 26px;
+}
+nav ul li a:hover {
+    text-decoration:none;
+    color:#fc0;
+}   
+/* borders */
+p {
+    border-width: 4px;
+    border-color:rgb(253, 250, 250) ;
+}
+
+/*center content*/
+section.content {
+    overflow:hidden;
+    position:relative;
+    width:1500px;
+    background: transparent;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    margin:0 auto;
+    background-image: url(images\ 2\ naruto.jpeg);
+    background-size: 1500px 2000px;
+}
+.content .column {
+    float: left;
+    width:1000px;
+    padding: 0 23px 7px 28px;
+}
+.content .sidebar {
+    float:right;
+    width:350px;
+    border-left:1px solid rgb(10, 10, 10);
+    padding:0 39px 7px 25px;
+}
+.post {
+    overflow:hidden;
+    padding-bottom:13px;
+}
+.post .title {
+    overflow:hidden;
+    padding-top:5px;
+    width:500px;
+    font: large;
+}
+.post .title .date {
+    background:url(aot\ background.jpg) ;
+    color:rgb(14, 13, 13);
+    float:center;
+    font-size:1.167em;
+    font-weight:700;
+    line-height:1em;
+    margin-right:50px;
+    text-align:center;
+    width:200px;
+    padding:5px 0px 8px;
+}
+.title .date span {
+    display: contents;
+    font-size:2.357em;
+    line-height:1em;
+}
+.post .title h2 {
+    color:#111010;
+    font-size:2.5em;
+    font-weight:400;
+    line-height:2.01em;
+    text-transform:none;
+    padding:15px 0 0;
+}
+.post .title h2 a {
+    color:#141414;
+    text-decoration:none;
+}
+.post .title h2 a:hover {
+    text-decoration:underline;
+}
+.post .text-box {
+    font-size:1.00em;
+    line-height:1.35em;
+    overflow:hidden;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width:1000px;
+}
+.post .text-box img {
+    height: 600px;
+    width: 600px;
+}
+.post .comments {
+    color:#0206f8;
+    font-size:1.083em;
+    line-height:1em;
+    overflow:hidden;
+    text-transform:none;
+    padding:0 0 16px;
+}
+.sidebar .block {
+    padding:1px 10px 50px 7px;
+}
+.sidebar .block h2 {
+    font-size:2.5em;
+    margin:10px 0;
+    color: #101111;
+}
+.sidebar .block h3 {
+    font-size:2.5em;
+    margin:10px 0;
+    color: #f80303;
+}
+.sidebar .block {
+    background-image: url(images\ 1\ naruto.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: 0px;
+}
+.sidebar ul {
+    width:100%;
+}
+.sidebar li {
+    color:#EF6A1B;
+    font-size:1.083em;
+    font-weight:700;
+    line-height:2.146em;
+    padding:4px 0 5px;
+}
+.sidebar li a {
+    color:#0397fa;
+    text-decoration:none;
+}
+
+/*footer*/
+footer {
+    width:100%;
+    background-color:#111;
+}
+footer div {
+    font-size:1.4em;
+    position:relative;
+    width:960px;
+    margin:0 auto;
+    padding:30px 0 40px 40px;
+}
